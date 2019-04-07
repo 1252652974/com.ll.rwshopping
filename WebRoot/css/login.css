@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.head-nav {
+	height: 50px;
+	width: 100%;
+	background-color: #800000;
+}
+
+.login-text {
+	margin-left: calc(50%-1px);
+}
+
+<style>
+        input::-webkit-input-placeholder{
+            color: #F1F1F1!important;
+        }
+        input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+            color: #F1F1F1!important;
+        }
+        input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+            color: #F1F1F1!important;
+        }
+        input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+            color: #F1F1F1!important;
+        }
+    </style>

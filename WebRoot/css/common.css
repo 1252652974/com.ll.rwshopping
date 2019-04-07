@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#targetDiv  
+    {  
+        width: 100px;  
+        height:100px;  
+        text-align:center;  
+        padding-top:30px;  
+        background: #8a8a8a;  
+        color: #fff;  
+          
+        position:fixed;  
+        opacity: 0;  
+        top:50px;  
+        left:-100px; 
+        -webkit-transition: all .5s ease-in; 
+        -moz-transition: all .5s ease-in;  
+        transition: all .5s ease-in;
+    }  
+    #targetDiv.move  
+    {  
+        left: 0px;  
+        opacity: 1;  
+    } 

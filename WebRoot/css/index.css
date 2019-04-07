@@ -1,0 +1,210 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+html body{
+	height: 100%;
+	width: 100%;
+}
+
+.container{
+	min-height: 800px;
+	max-width: 1200px;;
+	width: auto;
+	margin: 0 auto;
+	background: transparent;
+}
+	
+/*top-nav*/	
+.top-nav{
+	width: 100%;
+	height: 32px;
+	margin: 0px auto;
+	background: #eee;
+	/*border: 1px solid red;*/
+}
+
+.top-nav .top-nav-left{
+	float: left;
+}
+
+.top-nav .top-nav-right{
+	float: right;
+}
+
+.top-nav li{
+	float: left;/*鍒╃敤娴姩鎶婂潡绾у厓绱犲彉涓鸿绾у厓绱�*/
+    margin-left: 7px;
+    padding: 0px 3px;
+}
+
+.top-nav li a{
+	color: #6c6c6c;
+	font-size: 12px;
+	line-height: 35px;	
+}
+.top .top-nav li a:hover{
+	color: #f40;
+}
+.top-nav .top-nav-left .welcome,.top-nav .top-nav-right .fenggexian{
+	color: #6c6c6c;
+	font-size: 12px;
+	line-height: 35px;	
+}
+
+.top-nav .bjpic{
+	display: inline-block;
+	width: 6px;
+	height: 3px;
+	vertical-align: middle;
+	background-size: 100% 100%;
+/*	border: 1px solid black;*/
+}
+
+.top-nav .xsjimg{
+	width: 20px;
+	height: 20px;
+	background-image:url(../img/xsj.PNG);	
+}
+
+.top-nav .gwcimg{
+	background-image: url(../img/gouwuche.PNG);
+	width: 13px;
+	height: 13px;
+}
+
+.top-nav .dhimg{
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/back.jpg);
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 130px;
+	border: 1px solid #EEEEEE;
+	/*background: #F5F5F5;*/
+}
+
+.header .h-wrap{
+	height: 130px;
+	width: 1000px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #fff;
+}
+
+.header .h-wrap .logimg-l{
+	background-size: 100% 100%;
+	background-image: url(../img/logo.jpg);
+    height: 104px;
+    width: 104px; 
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.header .h-wrap .seach{
+	width: 436px;
+	height: 64px;
+	margin: 25px 0px auto 40px;
+}
+
+.header .h-wrap .seach-test{
+	width: 300px;
+	height: 36px;
+	/*border: solid blue;*/
+	float: left;
+	/*margin: 30px 0px auto 40px;*/
+}
+
+.header .h-wrap .seach-btn{
+	width: 132px;
+	height: 36px;
+	border: 1px solid #eee;
+	border-left: none;
+	float: left;
+	/*margin: 30px 0px auto 0px;*/
+}
+
+
+.header .h-wrap .seach-wrap{
+	height: 25px;
+	width: 430px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+.header .h-wrap .seach .seach-wrap .seach-wrap-list  li{
+	float: left;
+	margin-left: 0px;
+    padding: 0px 3px;
+}
+
+.header .h-wrap .seach .seach-wrap .seach-wrap-list  li a{
+	color: #6c6c6c;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.header .h-wrap .seach .seach-wrap .seach-wrap-list  .change-color{
+	color: #6495ED;
+}
+
+
+.header .h-wrap .logimg-r{
+	background-size: 100% 100%;
+	background-image: url(../img/header-r.jpg);
+    height: 95px;
+    width: 190px; 
+    margin-right: 20px;
+}
+
+.header .h-wrap .seach-test .input{
+	width: 100%;
+	height: 36px;
+	border: 1px solid #ccf;
+	border-right: none;
+}
+
+.header .h-wrap .seach-btn .button{
+	appearance: none;
+	outline: none;
+	box-shadow: none;
+	/*height: 20px;*/
+	height: 36px;
+	width: 100%;
+	color: #6495ED;
+	background-color: #ccccff;
+}
+.sale a{
+	color: #a9a9a9!important;
+}
+
+#targetDiv  
+    {  
+        width: 100px;  
+        height:100px;  
+        text-align:center;  
+        padding-top:30px;  
+        background: #8a8a8a;  
+        color: #fff;  
+          
+        position:fixed;  
+        opacity: 0;  
+        top:50px;  
+        left:-100px; /*opacity,left这两个属性因为添加move样式而改变,但会缓慢改变,有一个过渡效果按时间来定*/
+        /*下面两个分别是兼容 老版本火狐 浏览器,兼容 Safari　Chrome 浏览器*/
+        -webkit-transition: all .5s ease-in; 
+        -moz-transition: all .5s ease-in;  
+        transition: all .5s ease-in;  /*all表示所有变化的属性都添加上过渡效果 */
+    }  
+    #targetDiv.move  
+    {  
+        left: 10px;  
+        opacity: 1;  
+    } 

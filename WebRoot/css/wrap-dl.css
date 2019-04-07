@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.div-mid{
+	
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap .nav{
+	width: 100%;
+	height: 55px;
+	background: gray;
+}
+
+.wrap .nav .nav-list{
+	width: 90%;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin:  0px auto;
+}
+.wrap .nav .nav-list .nav-list-left span{
+	display: inline-block;
+	width: 50px;
+	height: 55px;
+	vertical-align: middle;
+	background-image: url(../images/4.jpg);
+	background-size: 100% 100%;
+	/*border: 1px solid black;*/
+}
+.wrap .nav .nav-list .nav-list-left{
+	float: left;
+}
+.wrap .nav .nav-list .nav-list-right li{
+	float: right;
+	margin-left: 10px;
+	line-height: 55px;
+}
+
+/*//mid*/
+.wrap .mid{
+    width: 80%;
+	height: 450px;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+}
+.wrap .mid .mid-left{
+	width: 25%;
+	height: 450px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-left: 0px;
+}
+.wrap .mid .mid-mid{
+	width: 36%;
+	height: 450px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.wrap .mid .mid-right{
+	width: 37%;
+	height: 450px;
+	/*border: 1px solid black;*/
+	float: left;
+	overflow: hidden;
+}
+.wrap .mid .mid-left .mid-text{
+	/*border: 1px solid red;*/
+	margin-top: 100px;
+}
+.wrap .mid .mid-left .mid-text p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.wrap .mid .mid-left .mid-title span{
+	font-size: 30px;
+	line-height: 26px;
+	color: #6f95c8;
+	font-weight: 200;
+}
+.wrap .mid .mid-mid img{
+	margin-top: 60px;
+}
+.wrap .mid .mid-right-con{
+	width: 90%;
+	border: 1px solid gray;
+	float: right;
+	margin-top: 40px;
+}
+.wrap .mid .mid-right .denglu{
+	width: 90%;
+	height: 50px;
+	/*border: 1px solid gray;*/
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	margin:20px auto 0px auto;
+}
+.wrap .mid .mid-right .id{
+	width: 90%;
+	height: 40px;
+	border: 1px solid gray;
+	margin:0px auto 0px auto;
+}
+.wrap .mid .mid-right .input{
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	border: 1px solid gray;
+}
+.wrap .mid .mid-right .button{
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	background: #6F95C8;
+}
+.wrap .mid .mid-right .passwords{
+	width: 90%;
+	height: 40px;
+	border: 1px solid gray;
+	margin:20px auto 0px auto;
+}
+.wrap .mid .mid-right .next{
+	width: 90%;
+	height: 40px;
+	/*border: 1px solid gray;*/
+	margin:20px auto 0px auto;
+}
+.wrap .mid .mid-right .next{
+	line-height: 40px;
+	/*text-align: center;*/
+}
+.wrap .mid .mid-right .but-dl{
+	width: 90%;
+	height: 40px;
+	border: 1px solid gray;
+	margin:20px auto 0px auto;
+}
+.wrap .mid .mid-right .zhuce{
+	width: 90%;
+	height: 40px;
+	/*border: 1px solid gray;*/
+	margin-top: 30px;
+}
+.wrap .mid .mid-right .zhuce li{
+	margin-top: 15px;
+	float: right
+}
+.wrap .footer{
+	width: 100%;
+	height: 40px;
+	/*border-top: gray;*/
+	background: gray;
+	border: 1px solid gray;
+}
+.wrap .footer ul{
+	margin: 0px auto;
+	margin-left: 41%;	
+}
+.wrap .footer li{
+	float: left;
+	line-height: 40px;
+	margin-right: 10px;
+}

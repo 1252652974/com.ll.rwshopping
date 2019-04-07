@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.container {
+	min-height: 800px;
+	max-width: 1200px!important;
+	width: auto;
+	margin: 0 auto;
+	background: transparent;
+}
+
+.container .navbar {
+	height: 40px;
+	border-bottom: 1px solid gray;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.cart-list {
+	margin-top: 5px;
+}
+
+.navbar li{
+	display: inline-block;
+	font-style: italic;
+	font-size: 20px;
+}

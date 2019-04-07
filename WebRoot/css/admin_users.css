@@ -1,0 +1,37 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+html body {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	max-width: 1200px;;
+	width: auto;
+	background: transparent;
+}
+
+.user-list {
+	height: 400px;
+	/* background: #DCDCDC; */
+	border: 1px solid #696969;
+}
+
+.user-list table {
+	
+	margin: 0 0;
+	background: #DCDCDC;
+}
+
+.paging {
+	width: 100%;
+}
+.paging ul.pagination {
+	margin: 8px auto;
+	margin-left: calc(50% - 116px);
+}

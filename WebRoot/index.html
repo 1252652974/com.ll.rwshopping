@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>人文二手易购</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<!--<script type="text/javascript" src="js/demo.js"></script>-->
+		<script src="js/bootstrap.min.js"></script>
+		<!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+        <div class="container">
+        	<div class="top-nav">
+				<ul class="top-nav-left">
+				    <a href="#" onClick="window.open('goodsdetail?id=16','','width=500,height=200');">查看详细内容</a>
+				    <a href="http://www.baidu.com" target="_Top">百度</a>
+					<li>
+						<span class="welcome">喵！欢迎人文二手易购</span><!--文字可以使用span标签放置-->
+					</li>
+					<li>
+						<a href="login.html">请登录</a>
+					</li>
+					<li>
+						<a href="register.html">免费注册</a>
+					</li>
+				</ul>
+				<ul class="top-nav-right">				   
+				    <li>
+				    	<span class="bjpic gwcimg"></span>
+				    	<a href="shopingcart.html">购物车</a>
+				    </li>
+				    <li>
+				    	<a href="shopingcart.html">收藏夹</a>
+				    	<span class="bjpic xsjimg"></span>
+				    </li>
+				    <li><span class="fenggexian">|</span></li>				 
+				    <li>
+				    	<a href="#">商家支持</a>
+				    	<span class="bjpic xsjimg"></span>
+				    </li>
+				    <li>
+				    	<span class="bjpic dhimg"></span>
+				    	<a href="#">安全退出</a>
+				    	<span class="bjpic xsjimg"></span>
+				    </li>
+				</ul>               					
+			</div>
+			
+			<div class="header">
+				<div class="h-wrap">
+					<div class="logimg-l"></div>
+					<div class="seach">
+					    <div class="seach-test">
+					    	 <input type="text" class="input" placeholder="请输入关键字"/>
+					    </div>
+					    <div class="seach-btn">
+					         <input type="button" class="button" value="搜索"/>
+					    </div>
+					    <div class="seach-wrap">
+					    	<ul class="seach-wrap-list">
+					    		<li><a href="#">针织衫</a></li>
+					    		<li><span class="fenggexian">|</span></li>
+					    		<li><a href="#" class="change-color">连衣裙</a></li>
+					    		<li><span class="fenggexian">|</span></li>
+					    		<li><a href="#">四件套</a></li>
+					    		<li><a href="#" class="change-color">书房</a></li>
+					    		<li><span class="fenggexian">|</span></li>
+					    		<li><a href="#">茶杯</a></li>
+					    		<li><span class="fenggexian">|</span></li>
+					    		<li><a href="#">口红</a></li>
+					    		<li><span class="fenggexian">|</span></li>
+					    		<li><a href="#" class="change-color">手机</a></li>
+					    		<li><span class="fenggexian">|</span></li>
+					    		<li><a href="#">运动鞋</a></li>
+					    	</ul>
+					    </div>
+					</div>
+					<div class="logimg-r"></div>	
+				</div>
+				
+			</div>
+            <div class="">
+					<table id="cartTable">
+					    <thead>
+					        <tr>
+					            <th><label><input class="check-all check" type="checkbox"/>&nbsp;全选</label></th>
+					            <th>商品</th>
+					            <th>单价</th>
+					            <th>联系卖家</th>
+					            <th>收藏</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+					            <td class="goods"><img src="images/1.jpg" alt=""/><span>Casio/卡西欧 EX-TR350</span></td>
+					            <td class="price">5999.88</td>
+					            <td class="subtotal">周：123441</td>
+					            <td class="operation"><span class="delete">收藏</span></td>
+					        </tr>
+					        <tr>
+					            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+					            <td class="goods"><img src="images/2.jpg" alt=""/><span>Canon/佳能 PowerShot SX50 HS</span></td>
+					            <td class="price">3888.50</td>				
+					            <td class="subtotal">周：123441</td>
+					            <td class="operation"><span class="delete">收藏</span></td>
+					        </tr>
+					        <tr>
+					            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+					            <td class="goods"><img src="images/3.jpg" alt=""/><span>Sony/索尼 DSC-WX300</span></td>
+					            <td class="price">1428.50</td>
+					            <td class="subtotal">周：123441</td>
+					            <td class="operation"><span class="delete">收藏</span></td>
+					        </tr>
+					        <tr>
+					            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+					            <td class="goods"><img src="images/4.jpg" alt=""/><span>Fujifilm/富士 instax mini 25</span></td>
+					            <td class="price">640.60</td>
+					            <td class="subtotal">周：123441</td>
+					            <td class="operation"><span class="delete">收藏</span></td>
+					        </tr>
+					    </tbody>
+                    </table>
+				<div class="foot" id="foot">
+				    <label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+
+				    <div class="fr selected" id="selected">已选商品<span id="selectedTotal">0</span>件</div>
+				    <div class="selected-view">
+				        <div id="selectedViewList" class="clearfix">
+				            <div><img src="images/1.jpg"><span>取消选择</span></div>
+				        </div>
+				        <span class="arrow">◆<span>◆</span></span>
+				    </div>
+				</div>
+        </div>
+	</body>
+</html>

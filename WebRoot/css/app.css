@@ -1,0 +1,11 @@
+/* Write your styles */
+html,body { background: rgb(42,144,223);}
+/* 登陆logo */
+.myapp-login { background: url(../img/bg.jpg) rgb(42,144,223) top no-repeat; background-size: 100%; height: 100%;}
+.myapp-login .myapp-login-bg { padding-top: 30px;  height: 100%;}
+.myapp-login .myapp-login-logo { width: 100%; text-align: center;}
+.myapp-login .myapp-login-logo i { font-size:120px; color: #fff;}
+.myapp-login .myapp-login-form { margin: 0 auto; float:none; padding-top: 20px; }
+.myapp-login .myapp-login-form  .am-form .am-form-group input { font-size: 14px; padding:10px 0 ;background:none;border: none; text-align: center; border-bottom: 1px solid #fff; color: #fff;}
+.myapp-login .myapp-login-form  .am-form button { background: #fff; width: 100%; border-radius: 30px; color: #2a90df; border: none; font-size: 14px; margin-top: 20px;}
+.myapp-login .myapp-login-form  .am-form .login-text {font-size: 14px; width: 100%; color: #fff; padding-top: 20px; text-align: center;}

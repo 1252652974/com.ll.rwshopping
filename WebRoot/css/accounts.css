@@ -1,0 +1,53 @@
+* {
+	list-style: none;
+	margin: 0 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.tackle {
+	font-size: 21px;
+	color: white;
+	margin-left: 10%;
+}
+
+.orderid {
+	font-size: 25px;
+	margin-left: 10%;
+}
+
+.username {
+	font-size: 25px;
+	margin-left: 10%;
+}
+
+.address {
+	width: 80%;
+	height: 37px;
+	/*border: 1px  solid red;*/
+	margin-left: 10%;
+	margin-top: 11px;
+	display: flex;
+	flex-direction: row;
+}
+
+.address p {
+	line-height: 41px;
+	font-size: 25px;
+}
+
+input {
+ 	background:none;  
+	outline:none;  
+	border:0px;
+	border-bottom: 1px solid white;
+	width: 60%;
+}
+
+select {
+	height: 37px;
+	width: 60%;
+    color: white;
+    background-color: grey;
+}
+

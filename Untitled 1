@@ -1,0 +1,9 @@
+用到了框架，命名必须按规定来
+因为数据库字段名和我的javabean对应的属性名不一样，我修改了两天才发现
+
+tomcat重启完之后，session 不清除
+修改tomcat配置文件content.xml。在文件的最后添加了让持久化失效的内容。
+
+  <Manager className="org.apache.catalina.session.PersistentManager"  saveOnRestart="false">
+        <Store className="org.apache.catalina.session.FileStore"/>
+  </Manager> 
